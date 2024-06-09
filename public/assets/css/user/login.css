@@ -1,0 +1,35 @@
+.form-login {
+    width: 400px;
+    margin: 0 auto;
+}
+div.form-login {
+    background: rgba(204, 204, 204, 0);
+    padding: 10px;
+}
+
+.submit-login {
+    margin-top: 20px;
+    background: #2695e5;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+div.form-login input {
+    height: 30px;
+    /*outline: none;*/
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form.form-login {
+    display: flex;
+    flex-direction: column;
+}
+
+form.form-login label, form.form-login input {
+    margin-top: 15px;
+}
+.status{
+    color:green;
+
+}

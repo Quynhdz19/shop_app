@@ -34,3 +34,7 @@
     text-align:center;
     font-size: 40px;
 }
+.errors{
+    color:red;
+  font-family: "American Typewriter";
+}

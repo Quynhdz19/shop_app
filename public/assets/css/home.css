@@ -1,0 +1,38 @@
+.container{
+    display:flex;
+    width:1600px;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+.container .box_component{
+    width:350px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.1),0 2px 6px 2px rgba(60,64,67,.15);
+    padding:10px;
+    margin:5px;
+    border-radius:10px;
+
+}
+.menu{
+    display:flex;
+
+}
+.menu .sub_menu{
+    padding:5px;
+    border:1px solid #CCCCCC;
+    border-radius:5px;
+    margin-left: 10px;
+
+}
+.active{
+    color:white;
+    background:#0a64bf;
+
+}
+.display_none{
+    display:none !important;
+}
+
+#index-content {
+    display: flex;
+}
+
